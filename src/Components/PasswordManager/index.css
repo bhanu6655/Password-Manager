@@ -1,0 +1,157 @@
+.password-manager-main-container {
+  background-color: #9ba9eb;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.app-logo {
+  height: 50px;
+  width: 160px;
+  margin: 15px;
+  padding-left: 25px;
+  align-self: flex-start;
+}
+.adding-password-conatiner {
+  width: 75%;
+  margin: 35px;
+  border-radius: 15px;
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .adding-password-conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.add-password-heading {
+  color: white;
+  font-family: 'Roboto';
+
+  font-size: 20px;
+}
+
+.add-password-form {
+  background-color: #454f84;
+  border-radius: 15px;
+  margin: 25px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 0px none white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.input-logos {
+  height: 25px;
+  width: 25px;
+  margin: 7px;
+}
+
+.input-section {
+  padding: 8px;
+  border: 0px none transparent;
+  width: 85%;
+  margin: 7px;
+}
+
+.vertical-line {
+  height: 20px;
+}
+
+.password-manager-image {
+  height: 300px;
+  width: 350px;
+  margin: 15px;
+}
+
+.button-add {
+  height: 35px;
+  width: 45px;
+  color: white;
+  font-family: 'Roboto';
+
+  background-color: #0b69ff;
+  border: 0px solid transparent;
+  margin: 10px;
+  align-self: flex-end;
+}
+
+.your-passwords-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-passwords {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding: 8px;
+  align-self: flex-start;
+  margin: 15px;
+}
+.search-bar {
+  align-self: flex-end;
+  margin: 20px;
+}
+
+.showing-password-conatiner {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 35px;
+  border-radius: 15px;
+  background-color: #5763a5;
+}
+
+.paswords-search-bar {
+  display: flex;
+}
+
+.horizontal-line {
+  width: 90%;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.checkbox {
+  margin: 7px;
+}
+.check-box-labels {
+  color: white;
+  font-family: 'Roboto';
+  margin: 7px;
+}
+
+.no-passwords {
+  height: 250px;
+  width: 300px;
+}
+
+.no-passwords-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
